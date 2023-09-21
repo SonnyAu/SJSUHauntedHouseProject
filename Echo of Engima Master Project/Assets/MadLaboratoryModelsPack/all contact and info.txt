@@ -1,0 +1,10 @@
+website : polygonexperts.com
+support discord group : https://discord.gg/zAtfdZfj
+Support mail : polygonexperts@gmail.com
+
+youtube video for the package : https://youtu.be/33SJsW7fRKw
+youtube for halloween release : https://youtu.be/WBEBoYLpsHw
+youtube for HDRP setup release : https://youtu.be/CvaJyTpyG1c
+
+for using unity hdrp feature you must use unity versions which supports 
+this feature
