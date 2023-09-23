@@ -201,7 +201,7 @@
           "$id": "39",
           "$type": "VRBuilder.Core.StepMetadata, VRBuilder.Core",
           "Position": {
-            "x": 501.0,
+            "x": 499.0,
             "y": -184.0
           },
           "StepType": "default",
@@ -231,12 +231,12 @@
                       "Target": {
                         "$id": "46",
                         "$type": "VRBuilder.Core.SceneObjects.SceneObjectReference, VRBuilder.Core",
-                        "UniqueName": "Door"
+                        "UniqueName": "tunnelArchDoors (5)"
                       },
                       "PositionProvider": {
                         "$id": "47",
                         "$type": "VRBuilder.Core.SceneObjects.SceneObjectReference, VRBuilder.Core",
-                        "UniqueName": "Target Rotation"
+                        "UniqueName": "Target Position"
                       },
                       "Duration": 2.0,
                       "Metadata": null
@@ -328,7 +328,7 @@
               "$id": "64",
               "$type": "VRBuilder.Core.ChapterMetadata, VRBuilder.Core",
               "LastSelectedStep": {
-                "$ref": "4"
+                "$ref": "38"
               },
               "EntryNodePosition": {
                 "x": -7.0,

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6050653649343399628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1643315277787403934}
+  - component: {fileID: 5223291539910843038}
+  - component: {fileID: 6759117110711062898}
+  m_Layer: 0
+  m_Name: PROCESS_CONFIGURATION
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1643315277787403934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6050653649343399628}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.05849894, y: 0.7046828, z: 0.05849894, w: 0.7046828}
+  m_LocalPosition: {x: 16.195, y: 6.619, z: 63.84}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: -9.491, y: 90, z: 0}
+--- !u!114 &5223291539910843038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6050653649343399628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef5789d95ab46e095b834b7c4789068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runtimeConfigurationName: VRBuilder.Core.Configuration.DefaultRuntimeConfiguration,
+    VRBuilder.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  selectedProcessStreamingAssetsPath: Processes/My VR Process/My VR Process.json
+  processStringLocalizationTable: 
+--- !u!114 &6759117110711062898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6050653649343399628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 215a8bb6dc630a44299469418bc73e6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  extensionAssembliesWhitelist: []
+  defaultConfettiPrefab: Confetti/Prefabs/MindPortConfettiMachine
